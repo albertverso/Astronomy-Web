@@ -24,7 +24,7 @@ const planets = [
 
 export default function Planets() {
   return (
-    <section id="planets" className="pt-12 pb-20 lg:pb-40 bg-slate-800 scroll-mt-20">
+    <section id="planets" className="pt-12 pb-20 lg:pb-48 bg-slate-800 scroll-mt-20">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center mb-12">
           <Planet className="w-8 h-8 text-yellow-400 mr-3" />
