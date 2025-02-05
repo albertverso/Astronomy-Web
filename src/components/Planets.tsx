@@ -8,6 +8,7 @@ import urano from '../assets/images/urano-planet.png';
 import venus from '../assets/images/venus-planet.png';
 import terra from '../assets/images/terra-planet.png';
 import mercurio from '../assets/images/mercurio-planet.png';
+import planetsIcon from '../assets/images/planets.png';
 
 
 const planets = [
@@ -74,7 +75,7 @@ export default function Planets() {
     <section id="planets" className="pt-12 pb-20 lg:pb-48 bg-slate-800 scroll-mt-20">
       <div className="container mx-auto px-4 ">
         <div className="flex items-center justify-center mb-12 gap-5">
-          <img src="./src/assets/images/planets.png" alt="" width={70}/>
+          <img src={planetsIcon} alt="" width={70}/>
           <h2 className="text-4xl font-bold text-white">Planetas</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

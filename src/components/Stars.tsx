@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sun } from 'lucide-react';
+import star from '../assets/images/star.png';
 
 const stars = [
   {
@@ -70,7 +71,7 @@ export default function Stars() {
     <section id="stars" className="pt-12 pb-20 bg-slate-950 scroll-mt-20">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center mb-12 gap-5">
-          <img src="./src/assets/images/star.png" alt="" width={70} />
+          <img src={star} alt="" width={70} />
           <h2 className="text-4xl font-bold text-white">Estrelas</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

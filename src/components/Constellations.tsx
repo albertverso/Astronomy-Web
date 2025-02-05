@@ -1,4 +1,5 @@
 import React from 'react';
+import constellation from '../assets/images/constelacao.png';
 
 const constellations = [
   {
@@ -63,7 +64,7 @@ export default function Constellations() {
     <section id="constellations" className="pt-12 pb-20 bg-slate-900 scroll-mt-20">
       <div className="container mx-auto px-4 mb-10">
         <div className="flex items-center justify-center mb-12 gap-5">
-          <img src="./src/assets/images/constelacao.png" alt="" width={70} />
+          <img src={constellation} alt="" width={70} />
           <h2 className="text-4xl font-bold text-white">Constelações</h2>
         </div>
         <div className=" grid grid-cols-1 md:grid-cols-3 gap-8">
