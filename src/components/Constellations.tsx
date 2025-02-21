@@ -61,8 +61,8 @@ const constellations = [
 
 export default function Constellations() {
   return (
-    <section id="constellations" className="pt-12 pb-20 bg-slate-900 scroll-mt-20">
-      <div className="container mx-auto px-4 mb-10">
+    <section id="constellations" className="py-12 bg-slate-900 scroll-mt-20">
+      <div className="container mx-auto px-8 lg:px-4 mb-10">
         <div className="flex items-center justify-center mb-12 gap-5">
           <img src={constellation} alt="" width={70} />
           <h2 className="text-4xl font-bold text-white">Constelações</h2>

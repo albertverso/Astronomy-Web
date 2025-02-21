@@ -68,8 +68,8 @@ const stars = [
 
 export default function Stars() {
   return (
-    <section id="stars" className="pt-12 pb-20 bg-slate-950 scroll-mt-20">
-      <div className="container mx-auto px-4">
+    <section id="stars" className="py-12 bg-slate-950 scroll-mt-20">
+      <div className="container mx-auto px-8 lg:px-4 ">
         <div className="flex items-center justify-center mb-12 gap-5">
           <img src={star} alt="" width={70} />
           <h2 className="text-4xl font-bold text-white">Estrelas</h2>

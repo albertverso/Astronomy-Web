@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Constellations from './components/Constellations';
 import Stars from './components/Stars';
 import Planets from './components/Planets';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Constellations />
       <Stars />
       <Planets />
+      <Footer />
     </div>
   );
 }
