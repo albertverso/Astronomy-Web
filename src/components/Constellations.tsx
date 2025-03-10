@@ -1,5 +1,6 @@
 import React from 'react';
 import constellation from '../assets/images/constelacao.png';
+import { useNasaAPOD } from "../hooks/useNasa";
 
 const constellations = [
   {
@@ -60,6 +61,7 @@ const constellations = [
 ];
 
 export default function Constellations() {
+
   return (
     <section id="constellations" className="py-12 bg-slate-900 scroll-mt-20">
       <div className="container mx-auto px-8 lg:px-4 mb-10">

@@ -9,7 +9,7 @@ export default function Navbar() {
           <img src={galaxy} alt="" width={50} />
           <span className="text-xl md:text-2xl font-bold">AstroExplorer</span>
         </div>
-        <div className="flex font-bold px-8 lg:px-4 justify-between items-center w-full">
+        <div className="flex font-bold lg:gap-10 lg:justify-end justify-center gap-6 items-center w-full">
           <a href="#constellations" className="hover:text-yellow-400 transition-colors">Constelações</a>
           <a href="#stars" className="hover:text-yellow-400 transition-colors">Estrelas</a>
           <a href="#planets" className="hover:text-yellow-400 transition-colors">Planetas</a>

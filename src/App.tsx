@@ -5,8 +5,10 @@ import Constellations from './components/Constellations';
 import Stars from './components/Stars';
 import Planets from './components/Planets';
 import Footer from './components/Footer';
+import { NasaAPOD } from './components/nasaAPOD';
 
 function App() {
+
   return (
     <div className="bg-slate-900">
       <Navbar />
@@ -14,6 +16,7 @@ function App() {
       <Constellations />
       <Stars />
       <Planets />
+      {/* <NasaAPOD /> */}
       <Footer />
     </div>
   );
